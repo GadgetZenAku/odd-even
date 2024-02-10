@@ -1,0 +1,20 @@
+while True:
+    print('Welcom to my even or odd program')
+    while True:
+        userInput = int(input('Please enter something:'))
+        if userInput % 2 == 0:
+            print(f'The number u enter {userInput} is even.')
+        else:
+            print(f'The number u enter {userInput} is odd.')
+
+        while True:
+            userRunorStop = int(input('wanna play press1 or not press 2:'))
+            if userRunorStop == 1:
+                continue
+            elif userRunorStop == 2:
+                print('Good Bye')
+            else:
+                print(' u choose wrong and try again')
+                continue
+            break
+        break
